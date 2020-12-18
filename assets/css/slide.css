@@ -1,0 +1,77 @@
+.btn,
+.form-control,
+.card,
+.card-img-top{
+    border-radius: 0 !important;
+    border: none;
+}
+
+#inicio .carousel-item {
+    height: 75vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#eventos .col-md-4{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#eventos .card{
+    overflow: hidden;
+    border-radius: 0 !important;
+    border: none;
+}
+
+#eventos .card > .card-img-top{
+    border-radius: 0 !important;
+    border: none;
+}
+
+#eventos .card-body{
+    /* display: none; */
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    transition: all 0.5s ease-in;
+
+    /* transition: all 0.5s ease-out; */
+    /* animation: card 5s ease 2s forwards; */
+}
+
+#eventos .card-body p{
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+
+#eventos .card:hover>.card-body{
+    /* display: block; */
+    height: 100%;
+    visibility: visible;
+    /* animation: card 5s ease 2s forwards; */
+    transition: all 0.5s ease-out;
+}
+
+
+
+#eventos .card:hover>.card-body p{
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+#login{
+    color: #fff;
+    text-decoration: none;
+}
+
+#login:hover{
+    color: #0275d8;
+    text-decoration: none;
+}
+

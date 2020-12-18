@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html>
+    <title>infov - Home</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="/assets/css/home.css">
+        <link rel="stylesheet" href="/assets/css/slide.css">
+        <link rel="stylesheet" href="/assets/css/slide.min.css">
+    </head>
+
+    <body>
+        
+        <header class="header">
+            <a href="#">logo</a>
+            <nav>
+                <ul  class="menu">
+                    <li>
+                        <a href="">Anunciar </a>
+                    </li>
+                    <li>
+                       <a href=""> Contato</a>
+                    </li>
+                    <li>
+                        <a href=""> Sobre</a>
+                    </li>
+                    <li>
+                       <a href="">Entrar|Cadastrar-se </a> 
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- CARROUSEL DA PAGINA PRINCIPAL -->
+
+        <div id="inicio">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <!-- Contadores/Indicadores do carousel -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                </ol>
+        
+                <!-- Container de itens do carousel -->
+                <div class="carousel-inner" role="listbox">
+                    <!--
+                        Item do carousel.
+                        As imagens devem ser adicionadas no style via python (única forma de funcionar corretamente)
+                        Os bgs são estilisados no arquivo style.css com o tamanho cover (que cobre toda a area indicada),
+                        ficando sempre ao centro mesmo em telas menores.
+                    -->
+                    <div class="carousel-item active" style="background-image: url('/imagens/cidado.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="display-4">Título </h2>
+                            <p class="lead">Conteúdo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('/imagens/elefante.jpg')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="display-4">Título </h2>
+                            <p class="lead">Conteúdo</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu do carousel -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+<!-- FIM DA APRESENTAÇÃO DOS SLIDES -->
+<div class="container-fluid bg-dark text-white py-5">
+<header class="text-center text-md-left container py-2">
+    <div class="row">
+       <div class="col-md-6">
+          <h3>
+                Produtos disponíveis
+          </h3>
+          <p>Confira nossos produtos disponíveis para venda</p>
+       </div>
+       <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="Buscar produto">
+          </div>
+       </div>
+    </div>
+ </header>
+ </div>
+
+ <hr>
+
+<h5 align="center">Sugestões</h5>
+    <nav aria-label="..." id="pag">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="javascript:void(0)" id="s1">Estética</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0)" id="s2">Empreendedorismo</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0)" id="s3">Gastronomia</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0)" id="s3">Saúde</a></li>
+        <li class="page-item"><a class="page-link" href="javascript:void(0)" id="s3">Esportes</a></li>
+      </ul>
+    </nav>
+<hr>
+
+ <div id="p1">
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/cidado.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+             <a href="javascript:void(0)"> <img src="/imagens/elefante.jpg" class="card-img-top" alt="..."></a>  
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/liao.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/muemaravilha].jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+               <a href="javascript:void(0)"> <img src="/imagens/passarin.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+               <a href=""><img src="/imagens/planeta.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+    
+    </div>
+    <hr>
+
+ </div>
+
+<!-- PRODUTOS PAGINA 2 DA NAVEGAÇÃO -->
+
+ <div id="p2" style="display: none;">
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/planeta.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+             <a href="javascript:void(0)"> <img src="/imagens/elefante.jpg" class="card-img-top" alt="..."></a>  
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/liao.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/muemaravilha].jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+               <a href="javascript:void(0)"> <img src="/imagens/passarin.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+               <a href="javascript:void(0)"><img src="/imagens/elefante.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <hr>
+ </div>
+
+ <!-- PRODUTOS PAGINA 3 DA NAVEGAÇÃO -->
+
+ <div id="p3" style="display: none;">
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/pordosol.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+             <a href="javascript:void(0)"> <img src="/imagens/pousada-do-monjolinho.jpg" class="card-img-top" alt="..."></a>  
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/zonico.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="row" align="center">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <a href="javascript:void(0)"> <img src="/imagens/muemaravilha].jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+               <a href="javascript:void(0)"> <img src="/imagens/passarin.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+               <a href="javascript:void(0)"><img src="/imagens/pordosol.jpg" class="card-img-top" alt="..."></a> 
+                <div class="card-body">
+                   <a href=""> <h4>Nome do produto</h4></a>
+                  <p class="card-text">Descrição do produto</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <hr>
+ </div>
+
+    
+ <nav aria-label="..." id="nave">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="javascript:void(0)" id="l1">1</a></li>
+      <li class="page-item"><a class="page-link" href="javascript:void(0)" id="l2">2</a></li>
+      <li class="page-item"><a class="page-link" href="javascript:void(0)" id="l3">3</a></li>
+    </ul>
+  </nav>
+   <hr>
+
+<footer class="container-fluid bg-dark text-white py-2">
+    <div class="row">
+       <div class="col-md-4">
+          <h4>Menu</h4> 
+          <ul class="list-unstyled">
+            <li><a href="" style="color: #fff;">Início </a> </li>
+            <li><a href="" style="color: #fff;;">Produtos disponíveis </a> </li>
+            <li><a href="" style="color: #fff;;">Anunciar meu produto </a> </li>
+          </ul>
+       </div>
+       <div class="col-md-4">
+          <h4>Administrativo</h4>
+          <ul class="list-unstyled">
+            <li><a href="" style="color: #fff;">Quem somos? </a> </li>
+            <li><a href="" style="color: #fff;">Como trabalhamos? </a> </li>
+            <li><a href="" style="color: #fff;">Entrar em contato </a> </li>
+          </ul>
+        </div>
+       <div class="col-md-4">
+          <h4>Redes sociais</h4>
+          <ul class="list-unstyled list-inline">
+             <li class="list-inline-item"> <a href=""><img src="/imagens/icons/facebook.jpg" alt=""></a></li>
+             <li class="list-inline-item"> <a href=""><img src="/imagens/icons/instagram.jpg" alt=""></a></li>
+             <li class="list-inline-item"> <a href=""><img src="/imagens/icons/twitter.jpg" alt=""></a></li>
+             <li class="list-inline-item"> <a href=""><img src="/imagens/icons/gmail.jpg" alt=""></a></li>
+          </ul>
+          <h4>Desenvolvido por:</h4>
+          <p><a href="" style="color: #fff;">Paulo Viana </a> </p>
+       </div>
+    </div>
+ </footer>
+
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <script src="/assets/scripts/slide.js"></script>
+    <script src="/assets/js/code_jquery.js"></script>
+    <script src="/assets/js/home.js"></script>
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/slide.js"></script>
+</html>
